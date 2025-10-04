@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pavani-Ranasinghe-Portfolio/static/css/main.593a7186.css",
-    "main.js": "/Pavani-Ranasinghe-Portfolio/static/js/main.3148754e.js",
+    "main.js": "/Pavani-Ranasinghe-Portfolio/static/js/main.07e89477.js",
     "static/media/doctor_reccomand.png": "/Pavani-Ranasinghe-Portfolio/static/media/doctor_reccomand.8a6c6e1b9e2d00dc8eb8.png",
     "static/media/Hospital.png": "/Pavani-Ranasinghe-Portfolio/static/media/Hospital.9ddcd21172d82777be7e.png",
     "static/media/ASL_gestures.png": "/Pavani-Ranasinghe-Portfolio/static/media/ASL_gestures.cf2823da6d8966c7c5e1.png",
@@ -12,10 +12,10 @@
     "static/media/IMG_2048.png": "/Pavani-Ranasinghe-Portfolio/static/media/IMG_2048.8f7ccba2a90e1b1da67c.png",
     "index.html": "/Pavani-Ranasinghe-Portfolio/index.html",
     "main.593a7186.css.map": "/Pavani-Ranasinghe-Portfolio/static/css/main.593a7186.css.map",
-    "main.3148754e.js.map": "/Pavani-Ranasinghe-Portfolio/static/js/main.3148754e.js.map"
+    "main.07e89477.js.map": "/Pavani-Ranasinghe-Portfolio/static/js/main.07e89477.js.map"
   },
   "entrypoints": [
     "static/css/main.593a7186.css",
-    "static/js/main.3148754e.js"
+    "static/js/main.07e89477.js"
   ]
 }
