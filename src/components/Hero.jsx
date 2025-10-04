@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <motion.section
       id="home"
-      className="min-h-screen flex items-center justify-center"
+      className="min-h-screen flex items-center justify-center px-4 sm:px-6 md:px-12"
       animate={{
         background: [
           'linear-gradient(135deg, #000000, #3B0A3B)',
@@ -17,7 +17,7 @@ export default function Hero() {
       }}
       transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
     >
-      <div className="max-w-7xl mx-auto px-6 flex flex-col-reverse md:flex-row items-center gap-16">
+      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-6 sm:gap-10 md:gap-16">
         
         {/* Left Side: Text */}
         <motion.div 
@@ -26,7 +26,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 0.8 }}
         >
-          <h1 className="text-5xl md:text-7xl xl:text-8xl font-light tracking-wide">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl font-light tracking-wide">
             <span className="font-['Dancing_Script'] font-bold text-white">
               Hi, I'm
             </span>
@@ -36,7 +36,7 @@ export default function Hero() {
             </span>
           </h1>
           
-          <div className="mt-4 text-lg md:text-xl h-8">
+          <div className="mt-3 text-sm sm:text-base md:text-lg lg:text-xl h-7 sm:h-8 md:h-8">
             <Typewriter 
               options={{ 
                 strings:[
@@ -51,18 +51,18 @@ export default function Hero() {
             />
           </div>
 
-          <div className="mt-10 flex gap-6 justify-center md:justify-start">
+          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-6 justify-center md:justify-start">
             <motion.a 
-              whileHover={{ translateY:-6, boxShadow:'0 20px 40px rgba(124,58,237,0.18)'}} 
+              whileHover={{ translateY:-4, boxShadow:'0 15px 30px rgba(124,58,237,0.15)'}} 
               href="#projects" 
-              className="px-8 py-4 rounded-full text-lg bg-gradient-to-r from-accent1 to-accent2 font-[Poppins]"
+              className="px-5 sm:px-6 md:px-8 py-3 sm:py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg bg-gradient-to-r from-accent1 to-accent2 font-[Poppins]"
             >
               View My Work
             </motion.a>
             <motion.a 
-              whileHover={{ translateY:-6 }} 
+              whileHover={{ translateY:-4 }} 
               href="#contact" 
-              className="px-8 py-4 rounded-full text-lg border border-white/10 font-[Poppins]"
+              className="px-5 sm:px-6 md:px-8 py-3 sm:py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg border border-white/10 font-[Poppins]"
             >
               Hire Me
             </motion.a>
@@ -71,22 +71,22 @@ export default function Hero() {
 
         {/* Right Side: Profile Image */}
         <motion.div 
-          className="flex-1 flex items-center justify-center"
+          className="flex-1 flex justify-center md:justify-end"
           initial={{ opacity: 0, scale: 0.9 }} 
           animate={{ opacity: 1, scale: 1 }} 
           transition={{ duration: 0.9 }}
         >
           <motion.div 
-            className="w-[26rem] h-[26rem] md:w-[30rem] md:h-[30rem] rounded-full overflow-hidden relative cursor-pointer neon-profile"
-            animate={{ y: [0, -15, 0], scale: [1, 1.04, 1] }}
+            className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-full overflow-hidden relative cursor-pointer neon-profile"
+            animate={{ y: [0, -10, 0], scale: [1, 1.03, 1] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
           >
             <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-accent1 to-accent2">
               <img 
                 src={profilePic} 
                 alt="Pavani" 
-                className="relative z-10 w-full h-full rounded-full object-cover object-top transform -translate-y-4 transition-transform duration-700 ease-in-out" 
+                className="relative z-10 w-full h-full rounded-full object-cover object-top transform -translate-y-2 sm:-translate-y-3 md:-translate-y-4 transition-transform duration-700 ease-in-out" 
               />
               <motion.div 
                 className="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-white/20 to-transparent"
@@ -114,13 +114,12 @@ export default function Hero() {
             50% { text-shadow: 0 0 15px #7C3AE5, 0 0 30px #7C3AE5, 0 0 45px #7C3AE5; }
           }
 
-          /* Neon Effect for Profile Image */
           .neon-profile {
             box-shadow:
-              0 0 15px rgba(255,255,255,0.4),
-              0 0 30px rgba(255,255,255,0.3),
-              0 0 45px rgba(255,255,255,0.2),
-              0 0 60px rgba(255,255,255,0.1);
+              0 0 12px rgba(255,255,255,0.4),
+              0 0 25px rgba(255,255,255,0.3),
+              0 0 40px rgba(255,255,255,0.2),
+              0 0 55px rgba(255,255,255,0.1);
             transition: box-shadow 0.3s ease-in-out;
           }
 
