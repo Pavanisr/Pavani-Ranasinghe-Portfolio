@@ -8,7 +8,7 @@ export default function Education() {
       year: '2023 - 2027', 
       title: 'Bachelor of Information and Communication Technology', 
       org: 'University of Sri Jayewardenepura', 
-      notes: 'Specializing in ICT, ML, and Web Development',
+      notes: 'Specializing in Software Engineering',
       icon: <FaUniversity className="text-accent1 text-2xl" />
     },
     { 
