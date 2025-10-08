@@ -86,7 +86,7 @@ export default function Contact() {
                 Email: <a href="mailto:pavaniranasinghe425@gmail.com" className="text-purple-400 hover:underline">pavaniranasinghe425@gmail.com</a>
               </div>
               <div className="text-sm text-gray-400 mt-2">
-                Phone: <a href="tel:+94741020616" className="text-purple-400 hover:underline">+94 741020616</a>
+                Phone: <a href="tel:+94741020616" className="text-purple-400 hover:underline"></a>
               </div>
               <div className="text-sm text-gray-400 mt-2">Location: Buttala, Sri Lanka</div>
             </div>
