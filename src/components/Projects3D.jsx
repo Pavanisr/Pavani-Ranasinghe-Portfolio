@@ -9,7 +9,8 @@ import foodImg from "../assets/FOOD.png";
 import stressImg from "../assets/stress.png";
 import aslAlphaImg from "../assets/ASL_Alph.png";
 import aslGesturesImg from "../assets/ASL_gestures.png";
-import doctorRecImg from "../assets/doctor_reccomand.png"; // New project image
+import doctorRecImg from "../assets/doctor_reccomand.png"; 
+import medibot6Img from "../assets/medibot6.jpg";// New project image
 
 const Projects = () => {
   const projects = useMemo(
@@ -21,6 +22,14 @@ const Projects = () => {
         tech: "MERN, ML, Node.js",
         code: "https://github.com/Pavanisr/MERN-STACK-hospital-Website.git",
         img: hospitalImg
+      },
+       {
+        id: 1,
+        title: "Medipal",
+        desc: "AI health assistant for symptom checks and wellness tips, built with Python & Streamlit.",
+        tech: "Python, GenAI, Streamlit",
+        code: "https://github.com/Pavanisr/Medipal.git",
+        img: medibot6
       },
       {
         id: 2,
