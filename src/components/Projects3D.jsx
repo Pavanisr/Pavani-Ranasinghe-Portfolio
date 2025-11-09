@@ -9,8 +9,14 @@ import foodImg from "../assets/FOOD.png";
 import stressImg from "../assets/stress.png";
 import aslAlphaImg from "../assets/ASL_Alph.png";
 import aslGesturesImg from "../assets/ASL_gestures.png";
-import doctorRecImg from "../assets/doctor_reccomand.png"; 
-// New project image
+import doctorRecImg from "../assets/doctor_reccomand.png";
+import mediImg from "../assets/medibot6.jpg"; 
+import potato from "../assets/p1.jpg";
+import empImg from "../assets/home.jpg";
+import gymImg from "../assets/gym1.jpg";
+import aifitnessImg from "../assets/aifitness1.jpg";
+import potatobotImg from "../assets/p6.jpg";// New project image
+
 
 const Projects = () => {
   const projects = useMemo(
@@ -63,7 +69,55 @@ const Projects = () => {
         tech: "Python, Sklearn, Pandas",
         code: "https://github.com/Pavanisr/Doctor-Recommendation-machine-learning-model.git",
         img: doctorRecImg
-      }
+      },
+      {
+        id: 7,
+        title: "MediPal",
+        desc: "AI-powered healthcare assistant using Python, Streamlit, and Hugging Face GenAI for interactive medical guidance.",
+        tech: "Python, GenAI, Streamlit,HuggingFace",
+        code: "https://github.com/Pavanisr/Medipal.git",
+        img: mediImg
+      },
+      {
+        id: 8,
+        title: "PotatoBuddy",
+        desc: "Fun and interactive AI companion built with Python, Streamlit, and Hugging Face GenAI.",
+        tech: "Python, GenAI, Streamlit, HuggineFace",
+        code: "https://github.com/Pavanisr/Potato-Disease-Identifier-and-PotatoBuddy-chatbot/tree/af9e99210cc79750d14bfc2e48335ebf5a74e058/potatoBot",
+        img: potatobotImg
+      },
+      {
+        id: 9,
+        title: "AI Fitness Coach",
+        desc: "Personalized fitness assistant using Python, Flask, and Gemini Flash model for smart diet and workout guidance.",
+        tech: "Python, GenAI, Flask",
+        code: "https://github.com/Pavanisr/AI-Fitness-Coach.git",
+        img: aifitnessImg
+      },
+      {
+        id: 10,
+        title: "Employee Management & Face Recognition Attendance System",
+        desc: "Full-stack employee management with React, Node.js, PostgreSQL, and automated face recognition attendance using Python, Flask, and MediaPipe.",
+        tech: "Python, Mediapipe, Flask,React js,Node.js,PostgreSQL",
+        code: "https://github.com/Pavanisr/Employee-Management-System-with-Face-Recognition.git",
+        img: empImg
+      },
+      {
+        id: 11,
+        title: "Potato Disease Identifier",
+        desc: "DL-powered system using Python, Flask, and Computer Vision to detect and identify potato plant diseases automatically.",
+        tech: "Python, DeepLearning, Flask,Computer Vision",
+        code: "https://github.com/Pavanisr/Potato-Disease-Identifier-and-PotatoBuddy-chatbot.git",
+        img: potato
+      },
+      {
+        id: 12,
+        title: "Gym Management System",
+        desc: "Full-stack app using React, Node.js, Bootstrap, and PostgreSQL for efficient management of gym memberships, trainers, and schedules.",
+        tech: "React, Node.js, Bootstrap,PostgreSQL",
+        code: "https://github.com/Pavanisr/Gym-Management-System-with-AI-fitness-chatbot.git",
+        img: gymImg
+      },
     ],
     []
   );
