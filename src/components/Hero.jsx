@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
-import profilePic from '../assets/ppp.png';
+import profilePic from '../assets/ppp.jpeg';
 
 export default function Hero() {
   return (
@@ -17,8 +17,8 @@ export default function Hero() {
       }}
       transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
     >
-      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-6 sm:gap-10 md:gap-16">
-        
+      <div className="max-w-7xl w-full flex flex-col-reverse md:flex-row items-center gap-4 sm:gap-4 md:gap-4">
+
         {/* Left Side: Text */}
         <motion.div 
           className="flex-1 text-center md:text-left"
@@ -51,18 +51,18 @@ export default function Hero() {
             />
           </div>
 
-          <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row gap-3 sm:gap-6 justify-center md:justify-start">
+          <div className="mt-5 sm:mt-6 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center md:justify-start">
             <motion.a 
               whileHover={{ translateY:-4, boxShadow:'0 15px 30px rgba(124,58,237,0.15)'}} 
               href="#projects" 
-              className="px-5 sm:px-6 md:px-8 py-3 sm:py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg bg-gradient-to-r from-accent1 to-accent2 font-[Poppins]"
+              className="px-6 md:px-8 py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg bg-gradient-to-r from-accent1 to-accent2 font-[Poppins]"
             >
               View My Work
             </motion.a>
             <motion.a 
               whileHover={{ translateY:-4 }} 
               href="#contact" 
-              className="px-5 sm:px-6 md:px-8 py-3 sm:py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg border border-white/10 font-[Poppins]"
+              className="px-6 md:px-8 py-3 md:py-4 rounded-full text-sm sm:text-base md:text-lg border border-white/10 font-[Poppins]"
             >
               Hire Me
             </motion.a>
@@ -71,22 +71,29 @@ export default function Hero() {
 
         {/* Right Side: Profile Image */}
         <motion.div 
-          className="flex-1 flex justify-center md:justify-end"
+          className="flex-[1.1] flex justify-center md:justify-end"
           initial={{ opacity: 0, scale: 0.9 }} 
           animate={{ opacity: 1, scale: 1 }} 
           transition={{ duration: 0.9 }}
         >
           <motion.div 
-            className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 lg:w-72 lg:h-72 xl:w-80 xl:h-80 rounded-full overflow-hidden relative cursor-pointer neon-profile"
-            animate={{ y: [0, -10, 0], scale: [1, 1.03, 1] }}
+            className="
+              w-48 h-48 
+              sm:w-56 sm:h-56 
+              md:w-72 md:h-72 
+              lg:w-80 lg:h-80 
+              xl:w-96 xl:h-96 
+              rounded-full overflow-hidden relative cursor-pointer neon-profile
+            "
+            animate={{ y: [0, -12, 0], scale: [1, 1.04, 1] }}
             transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-            whileHover={{ scale: 1.05 }}
+            whileHover={{ scale: 1.06 }}
           >
             <div className="relative w-full h-full rounded-full overflow-hidden bg-gradient-to-br from-accent1 to-accent2">
               <img 
                 src={profilePic} 
                 alt="Pavani" 
-                className="relative z-10 w-full h-full rounded-full object-cover object-top transform -translate-y-2 sm:-translate-y-3 md:-translate-y-4 transition-transform duration-700 ease-in-out" 
+                className="relative z-10 w-full h-full rounded-full object-cover object-top transform -translate-y-3 md:-translate-y-4 transition-transform duration-700 ease-in-out" 
               />
               <motion.div 
                 className="absolute inset-0 rounded-full bg-gradient-to-r from-transparent via-white/20 to-transparent"

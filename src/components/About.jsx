@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import aboutPic from '../assets/IMG_2048.png'; // ✅ Import your image correctly
+import aboutPic from '../assets/p.jpeg'; // ✅ Import your image correctly
 
 export default function About() {
   return (

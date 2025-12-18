@@ -15,7 +15,12 @@ import potato from "../assets/p1.jpg";
 import empImg from "../assets/home.jpg";
 import gymImg from "../assets/gym1.jpg";
 import aifitnessImg from "../assets/aifitness1.jpg";
-import potatobotImg from "../assets/p6.jpg";// New project image
+import potatobotImg from "../assets/p6.jpg";
+import AIquizeImg from "../assets/q.jpg";// New project image
+import H from "../assets/H.jpg";
+import va from "../assets/va.png";
+import dd from "../assets/dd.png";
+import hh from "../assets/hh.jpg";
 
 
 const Projects = () => {
@@ -117,6 +122,46 @@ const Projects = () => {
         tech: "React, Node.js, Bootstrap,PostgreSQL",
         code: "https://github.com/Pavanisr/Gym-Management-System-with-AI-fitness-chatbot.git",
         img: gymImg
+      },
+      {
+        id: 13,
+        title: "AI-Quiz-Generator",
+        desc: "Built interactive web app using Python and Flask,Used Gemini AI to generate quizzes based on topic and difficulty,Designed the app interface with Bootstrap for easy use",
+        
+        code: "https://github.com/Pavanisr/AI-Quiz-Generator",
+        img: AIquizeImg
+      },
+      {
+        id: 14,
+        title: "HomeHub",
+        desc: "Built frontend with React.js and Bootstrap, backend with Node.js/Express.js,Used PostgreSQL to manage properties, bookings, and reviewsImplemented JWT authentication for secure user login",
+        tech: "React, Node.js, Bootstrap,PostgreSQL",
+        code: "https://github.com/Pavanisr/Home-Rental-Portal",
+        img: H
+      },
+      {
+        id: 15,
+        title: "Deep-Learning-Based-Video-Action-Recognition-Using-Efficient-Neural-Networks-for-UCF101-Dataset",
+        desc: "Built an action recognition model using TensorFlow/Keras and UCF101,Used EfficientNet for video feature extraction,Achieved accurate classification of human actions",
+        
+        code: "https://github.com/Pavanisr/Deep-Learning-Based-Video-Action-Recognition-Using-Efficient-Neural-Networks-for-UCF101-Dataset",
+        img: va
+      },
+       {
+        id: 16,
+        title: "Vehicle-and-Drivers-renting-platform",
+        desc: "Developed a full-stack vehicles & drivers rental platform using Next.js (frontend) and Node.js (backend),Integrated PostgreSQL to manage vehicles,drivers bookings, and user data.Designed a responsive and user-friendly interface using Bootstrap",
+        tech: "React, Node.js, Bootstrap,PostgreSQL",
+        code: "https://github.com/Pavanisr/Vehicle-and-Drivers-renting-platform",
+        img: dd
+      },
+      {
+        id: 17,
+        title: "Hotel-Booking-Website",
+        desc: "Developed a full-stack hotel booking platform using React.js (frontend) and Node.js/Express (backend).Integrated PostgreSQL to manage users, hotels, and bookings efficiently.Designed a responsive and user-friendly interface with Bootstrap for seamless user experience",
+        tech: "React, Node.js, Bootstrap,PostgreSQL",
+        code: "https://github.com/Pavanisr/Hotel-Booking-Website",
+        img: hh
       },
     ],
     []
