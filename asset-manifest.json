@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pavani-Ranasinghe-Portfolio/static/css/main.3d7e5ce8.css",
-    "main.js": "/Pavani-Ranasinghe-Portfolio/static/js/main.0b7f160a.js",
+    "main.js": "/Pavani-Ranasinghe-Portfolio/static/js/main.81625fcf.js",
     "static/media/va.png": "/Pavani-Ranasinghe-Portfolio/static/media/va.cd76efda180ef8e79252.png",
     "static/media/doctor_reccomand.png": "/Pavani-Ranasinghe-Portfolio/static/media/doctor_reccomand.8a6c6e1b9e2d00dc8eb8.png",
     "static/media/dd.png": "/Pavani-Ranasinghe-Portfolio/static/media/dd.fdab5de00afc4233ec43.png",
@@ -17,15 +17,16 @@
     "static/media/p6.jpg": "/Pavani-Ranasinghe-Portfolio/static/media/p6.f0eb524969a7249519ee.jpg",
     "static/media/home.jpg": "/Pavani-Ranasinghe-Portfolio/static/media/home.5d9d955d3bb31b5ba9fe.jpg",
     "static/media/medibot6.jpg": "/Pavani-Ranasinghe-Portfolio/static/media/medibot6.a69b2d9adb2bfad9068b.jpg",
+    "static/media/c.jpg": "/Pavani-Ranasinghe-Portfolio/static/media/c.2ffe165a87a23c9baef8.jpg",
     "static/media/p.jpeg": "/Pavani-Ranasinghe-Portfolio/static/media/p.78630fc4ea70b162628e.jpeg",
     "static/media/H.jpg": "/Pavani-Ranasinghe-Portfolio/static/media/H.a777184b810886f4b93c.jpg",
     "static/media/ppp.jpeg": "/Pavani-Ranasinghe-Portfolio/static/media/ppp.7370cf32af01b872738b.jpeg",
     "index.html": "/Pavani-Ranasinghe-Portfolio/index.html",
     "main.3d7e5ce8.css.map": "/Pavani-Ranasinghe-Portfolio/static/css/main.3d7e5ce8.css.map",
-    "main.0b7f160a.js.map": "/Pavani-Ranasinghe-Portfolio/static/js/main.0b7f160a.js.map"
+    "main.81625fcf.js.map": "/Pavani-Ranasinghe-Portfolio/static/js/main.81625fcf.js.map"
   },
   "entrypoints": [
     "static/css/main.3d7e5ce8.css",
-    "static/js/main.0b7f160a.js"
+    "static/js/main.81625fcf.js"
   ]
 }
