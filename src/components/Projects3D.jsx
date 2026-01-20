@@ -21,6 +21,7 @@ import H from "../assets/H.jpg";
 import va from "../assets/va.png";
 import dd from "../assets/dd.png";
 import hh from "../assets/hh.jpg";
+import CImg from "../assets/c.jpg";
 
 
 const Projects = () => {
@@ -163,6 +164,14 @@ const Projects = () => {
         code: "https://github.com/Pavanisr/Hotel-Booking-Website",
         img: hh
       },
+      {
+      id: 18,
+      title: "Weather Comfort Index Dashboard – Full Stack",
+      desc: "A full-stack Weather Analytics Dashboard that calculates a Comfort Index (0–100) based on temperature, humidity, wind, and cloud coverage. The app ranks cities by comfort level, providing actionable insights through a responsive UI.",
+      tech: "React, Node.js, Express, Auth0, OpenWeatherMap API, JavaScript, CSS",
+      code: "https://github.com/Pavanisr/weather-comfort-dashboard.git",
+      img: CImg
+    },
     ],
     []
   );
